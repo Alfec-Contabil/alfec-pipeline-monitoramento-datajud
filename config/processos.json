@@ -1,0 +1,17 @@
+{
+  "_comentario": "Cadastro de processos monitorados. Preencha um objeto por processo. 'polo_cliente' deve ser 'executado' ou 'exequente' (ou 'reu'/'autor' para outros ritos). Sem isso, a classificação não funciona corretamente — ver SKILL.md seção 0.",
+  "telegram": {
+    "bot_token": "COLOQUE_AQUI_O_TOKEN_DO_BOT_TELEGRAM",
+    "chat_id": "COLOQUE_AQUI_SEU_CHAT_ID"
+  },
+  "processos": [
+    {
+      "numero_cnj": "0000000-00.0000.0.00.0000",
+      "tribunal_alias": "tjrj",
+      "polo_cliente": "executado",
+      "tipo_acao": "execucao_fiscal",
+      "advogado_responsavel": "Nome do advogado / contato",
+      "observacoes": "Ex: já há garantia do juízo? já houve citação?"
+    }
+  ]
+}
